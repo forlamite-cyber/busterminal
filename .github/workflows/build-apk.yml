@@ -25,10 +25,10 @@ jobs:
         echo "ANDROID_HOME=/usr/local/lib/android/sdk" >> $GITHUB_ENV
         echo "sdk.dir=/usr/local/lib/android/sdk" > android/local.properties
 
-    - name: Build Debug APK with Gradle
+    - name: Build Debug APK with Gradle (Gradle 8.5 compatible)
       run: |
         cd android
-        gradle wrapper
+        gradle wrapper --gradle-version 8.5
         ./gradlew assembleDebug --no-daemon
 
     - name: Upload APK Artifact
