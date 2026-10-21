@@ -14,10 +14,10 @@ import androidx.core.content.ContextCompat
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit.dpBusIdInput: EditText
-    private lateinit.statusText: TextView
-    private lateinit.startBtn: Button
-    private lateinit.stopBtn: Button
+    private lateinit var dpBusIdInput: EditText
+    private lateinit var statusText: TextView
+    private lateinit var startBtn: Button
+    private lateinit var stopBtn: Button
 
     companion object {
         private const val LOCATION_PERMISSION_REQUEST_CODE = 1001
