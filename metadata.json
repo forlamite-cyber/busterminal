@@ -1,0 +1,6 @@
+{
+  "name": "Karachi Bus Terminal Fleet & GPS Tracker",
+  "description": "Live GPS fleet tracking dashboard and Android driver tracking system for Karachi intercity bus terminals traveling across Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
