@@ -28,7 +28,7 @@ jobs:
     - name: Build Debug APK with Gradle
       run: |
         cd android
-        chmod +x gradlew || gradle wrapper
+        gradle wrapper
         ./gradlew assembleDebug --no-daemon
 
     - name: Upload APK Artifact
